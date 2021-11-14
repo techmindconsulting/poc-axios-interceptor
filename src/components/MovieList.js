@@ -15,11 +15,11 @@ const MovieList = () => {
   }, []);
 
   if (isLoading) {
-    return <div clasName="App">Loading...</div>;
+    return <div className="App">Loading...</div>;
   }
 
   return (
-    <div clasName="App">
+    <div className="App">
       <h2>Liste des films</h2>
       <ul>
         {movies.map((movie) => (
